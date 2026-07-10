@@ -1,0 +1,10 @@
+// Cloudflare Workers konfiguráció — a Docusaurus által generált build/
+// mappát szolgálja ki statikus oldalként (worker kód nélkül, ingyenes).
+{
+  "name": "meshcore-hu",
+  "compatibility_date": "2026-07-10",
+  "assets": {
+    "directory": "./build",
+    "html_handling": "auto-trailing-slash"
+  }
+}

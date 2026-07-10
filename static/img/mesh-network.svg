@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mesh hálózati illusztráció</title>
+  <desc id="desc">Egymáshoz kapcsolódó csomópontok és vonalak, sötét háttéren.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="44" fill="url(#bg)"/>
+  <g fill="none" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="4">
+    <path d="M214 512 353 415 519 468 655 338 839 386 961 286"/>
+    <path d="M208 208 339 297 494 233 653 315 817 228 981 330"/>
+    <path d="M296 631 430 547 612 582 760 487 938 546"/>
+    <path d="M187 360 358 415 494 233"/>
+    <path d="M519 468 612 582 760 487"/>
+    <path d="M655 338 817 228"/>
+  </g>
+  <g fill="#e2e8f0" opacity="0.92">
+    <circle cx="214" cy="512" r="18"/>
+    <circle cx="353" cy="415" r="18"/>
+    <circle cx="519" cy="468" r="18"/>
+    <circle cx="655" cy="338" r="18"/>
+    <circle cx="839" cy="386" r="18"/>
+    <circle cx="961" cy="286" r="18"/>
+    <circle cx="208" cy="208" r="18"/>
+    <circle cx="339" cy="297" r="18"/>
+    <circle cx="494" cy="233" r="18"/>
+    <circle cx="653" cy="315" r="18"/>
+    <circle cx="817" cy="228" r="18"/>
+    <circle cx="981" cy="330" r="18"/>
+    <circle cx="296" cy="631" r="18"/>
+    <circle cx="430" cy="547" r="18"/>
+    <circle cx="612" cy="582" r="18"/>
+    <circle cx="760" cy="487" r="18"/>
+    <circle cx="938" cy="546" r="18"/>
+    <circle cx="187" cy="360" r="18"/>
+  </g>
+  <g>
+    <circle cx="600" cy="380" r="140" fill="url(#accent)" fill-opacity="0.14"/>
+    <circle cx="600" cy="380" r="58" fill="url(#accent)" fill-opacity="0.88"/>
+    <path d="M600 320l34 44-34 44-34-44 34-44Z" fill="#08111f" opacity="0.95"/>
+  </g>
+  <g fill="#7dd3fc" fill-opacity="0.22">
+    <circle cx="145" cy="115" r="40"/>
+    <circle cx="1050" cy="118" r="34"/>
+    <circle cx="1038" cy="654" r="48"/>
+    <circle cx="190" cy="642" r="32"/>
+  </g>
+</svg>
